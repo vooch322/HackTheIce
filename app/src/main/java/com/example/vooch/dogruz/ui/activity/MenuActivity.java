@@ -1,13 +1,15 @@
-package com.example.vooch.dogruz;
+package com.example.vooch.dogruz.ui.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Cargo extends AppCompatActivity {
+import com.example.vooch.dogruz.R;
+
+public class MenuActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cargo);
+        setContentView(R.layout.activity_menu);
     }
 }
